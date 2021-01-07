@@ -1,0 +1,26 @@
+{
+  "name": "npm-test",
+  "version": "1.0.0",
+  "description": "test building and deploying an npm package",
+  "main": "commands.js",
+  "preferGlobal": true,
+  "bin": "./commands.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simon-panek/npm-test.git"
+  },
+  "keywords": [],
+  "author": "me made this",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.2.1",
+    "express": "^4.17.1",
+    "inquirer": "^7.3.3",
+    "open": "^7.3.1",
+    "superagent": "^6.1.0"
+  }
+}
